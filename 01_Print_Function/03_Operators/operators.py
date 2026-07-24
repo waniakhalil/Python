@@ -26,7 +26,3 @@ num2=9
 sum=num2//num1 #for division answer in integer using double backslash and this cut the fraction part of answer 
 print(sum)
 
-# in string is not addition its a concatenation means (join)
-a="20"
-b="wania"
-print(a,"\t"+b)
