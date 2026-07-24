@@ -17,6 +17,7 @@ arr=['1','Pakistan','True','3.5','False','3Hello','World','Dyson','bmw']
 print(arr[0])
 print(arr[7])
 print(arr[8])
+print(arr[3])
 
 
 
