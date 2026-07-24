@@ -18,7 +18,7 @@ print ("20 is my age") #string is combine of number and character value   also c
 # 1.comma(,) parameter:
 print("Wania",'Husnain','Sawera') # commas (,) indicates the  next value is start 
 
- #2.separate parameter
+ #2.separate parameter:
 print("Ubaidullah","Merub",sep="") # sep means separate and gaps in values also python by default one tab gap in sep
 print("Javeria", "Ayesha",sep="***") # use also pass a separate parameter  value in any data type 
 
