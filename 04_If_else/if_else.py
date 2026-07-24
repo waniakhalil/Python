@@ -8,7 +8,7 @@ b = 100
 # if the condition is true, the code inside the if block will be executed and if is always true statement
 # if the condition is false, the code inside the else block will be executed
 
-if a>b: #retu#rn true 
+if a>b: #return true 
     print("a is greater than b")
     print("Hello A")
     print("Hello B")
