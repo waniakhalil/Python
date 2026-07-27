@@ -1,3 +1,5 @@
+#if you a particular value or element you use list you do a slicing in a list 
+# one or more value to get from list is called slicing 
 #slicing in a list 
 #index    -5         -4        -3     -2      -1
 students=["Ayesha","Javeria","Saher","Maria","Maha"]
@@ -9,6 +11,7 @@ print(students[-5]) #negative indexing
 
 # slice value in  a list
 #syntax => listname[start index of value: end index of value+1}.
+# start value of index is called inclusive and end value of index is called exclusive 
 # : indicates the slicing of list 
 # In slicing of list output is also in a list 
 print(students[1:2+1])
