@@ -13,3 +13,7 @@
 #: indicates the block of loop
 # break use keyword in loop fo terminate and exit the loop
 # coutinue use keyword skip the loop 
+
+# loop syntax:
+for i in range(5):
+    print(i)
