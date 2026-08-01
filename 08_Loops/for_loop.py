@@ -16,7 +16,12 @@
 
 # loop syntax:
 for i in range(5):
-    print(i)
+     print(i)
 
-    for i in range(1, 11):
-    print(2 * i)
+for i in range(1, 11):
+   print(2 * i)
+
+fruits = ["Apple", "Banana", "Mango"]
+
+for fruit in fruits:
+    print(fruit)
