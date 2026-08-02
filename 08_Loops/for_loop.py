@@ -25,3 +25,8 @@ fruits = ["Apple", "Banana", "Mango"]
 
 for fruit in fruits:
     print(fruit)
+
+name = "Python"
+
+for letter in name:
+    print(letter)
