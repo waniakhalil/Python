@@ -30,3 +30,6 @@ name = "Python"
 
 for letter in name:
     print(letter)
+
+for i in range(2, 11, 2):
+    print(i)
