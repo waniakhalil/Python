@@ -155,6 +155,7 @@ for tup in country:
 # In for loop study of break and continue:
 #   Example of break:
 print("Using break in loop:",'\n')
+print("Example 0 is unequal and not  divisible by 3 ")
 for num in range(10):
     if num%3!=0: # % modulus when use not complete divisble and have remainder 
                  # != indicies sign means not equal 
@@ -163,4 +164,27 @@ for num in range(10):
 
 # Output:
 # Using break in loop
+#"Example 0 is unequal and not  divisible by 3 
 # 0
+
+print("Example 1 is equal and not  divisible by 3 ")
+for num in range(10):
+   if num%3==1:
+    break
+   print(num)
+
+#Output:
+# Example 1 is unequal and not  divisible by 3 
+# 0
+
+print("Example 0 is equal and not divisible by 3 ")
+for num in range(10):
+   if num%3==0:
+    break
+   print(num)
+
+#Output:
+# Example 0 is equal and not divisible by 3
+# not print 
+
+
