@@ -129,29 +129,38 @@ for num in [11,22,33,44,55]:
 #44 
 #55
 
+# Character print using loop:
+print("Print Character using Loop:",'\n')
+country='Pakistan' # print one character of this string element 
+for char in country:
+    print(char)
+
+# Output:
+# Print Character using loop
+# Pakistan
+
+# tuples using loop:
+print('Tuples using loop:','\n') # in tuples store one or more element using loop print full element of character 
+country='Pakistan', 'China','Japan'
+for tup in country:
+    print(tup)
+
+# Output:
+#Tuples using loop:
+# Pakistan
+# China
+# Japan
 
 
-for i in range(1, 11):
-   print(2 * i)
+# In for loop study of break and continue:
+#   Example of break:
+print("Using break in loop:",'\n')
+for num in range(10):
+    if num%3!=0: # % modulus when use not complete divisble and have remainder 
+                 # != indicies sign means not equal 
+        break
+    print(num)
 
-fruits = ["Apple", "Banana", "Mango"]
-
-for fruit in fruits:
-    print(fruit)
-
-name = "Python"
-
-for letter in name:
-    print(letter)
-
-for i in range(2, 11, 2):
-    print(i)
-
-for i in range(1, 6):
-    print("Hello")
-
-for i in range(1, 11):
-    print(i)
-
-for i in range(2, 21, 2):
-    print(i)
+# Output:
+# Using break in loop
+# 0
