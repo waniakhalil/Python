@@ -7,8 +7,6 @@
 # in list is slcicing not in tuple
 
 # tuples in function
-from itertools import count
-
 
 name=('wania','husnain','sawera',20,18,16)
 # syntax:varibale name=()round bracket define a tuple and [] square bracket define  a list
